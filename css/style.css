@@ -1,4 +1,4 @@
-body {
+/*body {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
@@ -19,4 +19,120 @@ h2 {
   color: #000000;
   font-weight: bold;
   font-family: Crisp;
+}
+*/
+html,
+body {
+  min-width: 1200px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000000 url("../img/barbershop-shop.jpg") no-repeat 50% 3px;
+  background-size: 1200px auto;
+/*background: #000000 url("../img/barbershop-item.jpg") no-repeat 50% 3px;
+  background-size: 1200px auto;*/
+}
+.container {
+  background: rgba(161,100,100, 0.7);
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header {
+  margin-bottom: 55px;
+}
+.main-header-layout {
+  display: flex;
+  justify-content: space-between;
+}
+.main-navigation {
+  background: rgba(100,100,100, 0.7);
+  width: 780px;
+  min-height: 72px;
+}
+.user-block {
+  background: rgba(100,100,100, 0.7);
+  width: 140px;
+  min-height: 72px;
+}
+.breadcrumbs-caption {
+  background: rgba(100,100,150, 0.7);
+  width: 700px;
+  min-height: 42px;
+  margin-bottom: 15px;
+}
+.breadcrumbs {
+  background: rgba(100,150,100, 0.7);
+  width: 700px;
+  min-height: 17px;
+  margin-bottom: 55px;
+}
+.content {
+  background: rgba(100,150,150, 0.7);
+  display: flex;
+  width: 940px;
+  min-height: 608px;
+  margin-bottom: 27px;
+}
+.sidebar {
+  background: rgba(100,100,100, 0.8);
+  width: 220px;
+  margin-right: 20px;
+}
+.catalog-content {
+  background: rgba(100,100,100, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 700px;
+}
+.catalog-content-section {
+  background: rgba(100,100,150, 0.8);
+  width: 220px;
+  min-height: 286px;
+  margin-bottom: 20px;
+}
+.pagination {
+  background: rgba(100,150,100, 0.7);
+  width: 194px;
+  min-height: 45px;
+  margin-left: 240px;
+  margin-bottom: 45px;
+}
+.content-left {
+  /*background: rgba(100,150,100, 0.7);*/
+  width: 460px;
+  min-height: 670px;
+  margin-right: 80px;
+  margin-bottom: 23px;
+}
+.content-right {
+  /*background: rgba(100,150,100, 0.7);*/
+  width: 400px;
+  min-height: 670px;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.main-footer-layout {
+  display: flex;
+}
+.footer-contacts {
+  background: rgba(140,150,150, 0.7);
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+.footer-social {
+  background: rgba(140,150,150, 0.7);
+  width: 180px;
+}
+.footer-copyright {
+  background: rgba(140,150,150, 0.7);
+  width: 160px;
+  margin-left: auto;
 }
